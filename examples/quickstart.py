@@ -21,7 +21,7 @@ SOURCE = "gh-tiktok-api"
 SIGN_UP = f"https://dataxapi.com/zh/signin/?button={SOURCE}"
 ENDPOINT = "tiktok.videos.search"
 PARAM = "query"
-PRICE = Decimal("0.002")  # 现价见 https://dataxapi.com/zh/apis/tiktok/videos/search/
+PRICE = Decimal("0.002")  # 现价见 https://dataxapi.com/zh/apis/tiktok/videos/search/?ref=gh-tiktok-api
 
 
 def flatten(item: dict, prefix: str = "") -> dict:
